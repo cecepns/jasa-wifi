@@ -200,7 +200,7 @@ const Home = () => {
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-gray-50">
+      {/* <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
@@ -221,10 +221,10 @@ const Home = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Featured Products */}
-      <section className="pb-10 bg-gray-50">
+      <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2
@@ -348,7 +348,7 @@ const Home = () => {
       </section>
 
       {/* Divisions Section */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2
@@ -368,7 +368,6 @@ const Home = () => {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {/* Divisi Belden */}
             <div
               className="card hover:shadow-xl transition-all duration-300"
               data-aos="fade-up"
@@ -395,7 +394,6 @@ const Home = () => {
               </div>
             </div>
 
-            {/* Divisi Material Handling */}
             <div
               className="card hover:shadow-xl transition-all duration-300"
               data-aos="fade-up"
@@ -423,8 +421,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-
-            {/* Divisi Dalton Tools */}
+            
             <div
               className="card hover:shadow-xl transition-all duration-300"
               data-aos="fade-up"
@@ -448,7 +445,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-primary-600 text-white">
