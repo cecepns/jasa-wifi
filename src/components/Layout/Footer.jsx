@@ -23,7 +23,7 @@ const Footer = () => {
       const response = await settingsAPI.get();
       const settingsData = response.data.data || {};
       setSettings({
-        company_name: settingsData.company_name || 'PT. Denko Wahana Sakti',
+        company_name: settingsData.company_name || 'Belarise',
         company_address: settingsData.company_address || '',
         company_phone: settingsData.company_phone || '',
         company_email: settingsData.company_email || '',

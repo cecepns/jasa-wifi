@@ -133,7 +133,7 @@ const Contact = () => {
     <>
       <SEO 
         title="Contact Us"
-        description="Hubungi PT. Denko Wahana Sakti untuk konsultasi, informasi produk, atau kerjasama bisnis. Tim kami siap membantu kebutuhan industri Anda."
+        description="Hubungi Belarise untuk konsultasi, informasi produk, atau kerjasama bisnis. Tim kami siap membantu kebutuhan industri Anda."
         keywords="kontak denko wahana sakti, alamat perusahaan, telepon, email, konsultasi"
       />
 

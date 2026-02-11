@@ -1,4 +1,4 @@
--- PT. Denko Wahana Sakti Database Schema
+-- Belarise Database Schema
 -- Created: 2024
 
 CREATE DATABASE IF NOT EXISTS denko_db;
@@ -62,11 +62,11 @@ INSERT INTO admin_users (email, password, name) VALUES
 
 -- Insert Default Settings
 INSERT INTO settings (setting_key, setting_value) VALUES 
-('company_name', 'PT. Denko Wahana Sakti'),
+('company_name', 'Belarise'),
 ('company_address', 'Kawasan Industri de Prima Terra, Jl. Raya Sapan Blok E2/11, Tegalluar Kec. Bojongsoang Kab. Bandung'),
 ('company_phone', '0881022598949'),
 ('company_email', 'selvi@denko.co.id'),
-('company_about', 'PT. Denko Wahana Sakti adalah perusahaan yang bergerak di bidang penyediaan peralatan industri dan solusi teknis untuk berbagai sektor industri. Dengan pengalaman lebih dari 15 tahun, kami telah menjadi partner terpercaya dalam menyediakan solusi industri yang inovatif dan berkualitas tinggi.'),
+('company_about', 'Belarise adalah perusahaan yang bergerak di bidang penyediaan peralatan industri dan solusi teknis untuk berbagai sektor industri. Dengan pengalaman lebih dari 15 tahun, kami telah menjadi partner terpercaya dalam menyediakan solusi industri yang inovatif dan berkualitas tinggi.'),
 ('google_maps_embed', 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.5649999999997!2d107.64320857499044!3d-6.954944893060374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9adf177bf8d%3A0x5709c5e7f9e7b1f5!2sKawasan%20Industri%20de%20Prima%20Terra!5e0!3m2!1sen!2sid!4v1635000000000!5m2!1sen!2sid');
 
 -- Insert Sample Products
@@ -116,7 +116,7 @@ INSERT INTO products (title, slug, description, image, category, status) VALUES
 INSERT INTO banners (title, description, image, link, order_index, status) VALUES 
 (
     'Solusi Industri Terpercaya',
-    'PT. Denko Wahana Sakti menyediakan peralatan industri berkualitas tinggi untuk mendukung kebutuhan bisnis Anda',
+    'Belarise menyediakan peralatan industri berkualitas tinggi untuk mendukung kebutuhan bisnis Anda',
     'https://images.pexels.com/photos/3862132/pexels-photo-3862132.jpeg',
     '/products',
     1,

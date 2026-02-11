@@ -180,7 +180,7 @@ const Home = () => {
                   data-aos="fade-up"
                   data-aos-delay="200"
                 >
-                  PT. Denko Wahana Sakti menyediakan peralatan dan solusi
+                  Belarise menyediakan peralatan dan solusi
                   industri berkualitas tinggi untuk mendukung kebutuhan bisnis
                   Anda.
                 </p>

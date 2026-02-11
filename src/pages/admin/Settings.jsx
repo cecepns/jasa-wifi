@@ -125,7 +125,7 @@ const Settings = () => {
                 value={settings.company_name || ''}
                 onChange={handleInputChange}
                 className="input-field"
-                placeholder="PT. Denko Wahana Sakti"
+                placeholder="Belarise"
               />
             </div>
 

@@ -176,7 +176,7 @@ const About = () => {
               <div className="w-full h-96 md:h-[500px]">
                 <img
                   src={AboutImage}
-                  alt="PT. Denko Wahana Sakti Office"
+                  alt="Belarise Office"
                   className="w-full h-full object-cover rounded-lg shadow-xl"
                 />
               </div>

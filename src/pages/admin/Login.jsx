@@ -45,13 +45,8 @@ const Login = () => {
       <div className="max-w-md w-full">
         {/* Header */}
         <div className="text-center mb-8">
-          <div className="bg-white p-4 rounded-full inline-block mb-4 shadow-lg">
-            <div className="bg-primary-600 text-white p-3 rounded-full">
-              <span className="font-bold text-2xl">DWS</span>
-            </div>
-          </div>
           <h1 className="text-3xl font-bold text-white mb-2">Admin Panel</h1>
-          <p className="text-primary-200">PT. Denko Wahana Sakti</p>
+          <p className="text-primary-200">Belarise</p>
         </div>
 
         {/* Login Form */}

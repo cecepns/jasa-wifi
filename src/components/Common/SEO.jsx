@@ -1,13 +1,13 @@
 import { Helmet } from 'react-helmet-async';
 
 const SEO = ({ 
-  title = "PT. Denko Wahana Sakti", 
+  title = "Belarise", 
   description = "Solusi industri terpercaya untuk kebutuhan perusahaan Anda dengan kualitas dan pelayanan terbaik.",
   keywords = "industri, manufaktur, peralatan industri, solusi industri",
   image = "/og-image.jpg",
   url = window.location.href
 }) => {
-  const siteTitle = "PT. Denko Wahana Sakti";
+  const siteTitle = "Belarise";
   const fullTitle = title === siteTitle ? title : `${title} - ${siteTitle}`;
 
   return (
@@ -34,7 +34,7 @@ const SEO = ({
       <link rel="canonical" href={url} />
       <meta name="robots" content="index, follow" />
       <meta name="language" content="Indonesian" />
-      <meta name="author" content="PT. Denko Wahana Sakti" />
+      <meta name="author" content="Belarise" />
     </Helmet>
   );
 };
