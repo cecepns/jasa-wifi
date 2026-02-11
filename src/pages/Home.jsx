@@ -60,7 +60,7 @@ const Home = () => {
 
   const stats = [
     { icon: Users, label: "Happy Clients", value: "500+" },
-    { icon: Award, label: "Years Experience", value: "15+" },
+    { icon: Award, label: "Years Experience", value: "5+" },
     { icon: Zap, label: "Projects Completed", value: "1000+" },
     { icon: CheckCircle, label: "Success Rate", value: "99%" },
   ];
