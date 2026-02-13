@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone, Mail } from 'lucide-react';
-import Logo from '../../assets/logo.png';
+import Logo from '../../assets/logo.jpeg';
 import { settingsAPI } from '../../utils/api';
 
 const Header = () => {
@@ -42,17 +42,17 @@ const Header = () => {
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
-    { name: 'Products', href: '/products' },
+    { name: 'Paket Internet', href: '/products' },
     { name: 'Contact', href: '/contact' },
   ];
 
   const isActive = (path) => location.pathname === path;
 
-  const topPhone = settings.company_phone || '0881022598949';
-  const topEmail = settings.company_email || 'selvi@denko.co.id';
+  const topPhone = settings.company_phone || '081234567890';
+  const topEmail = settings.company_email || 'info@penyediajasawifi.id';
   const topAddress = settings.company_address
     ? settings.company_address.split('\n')[0]
-    : 'Kawasan Industri de Prima Terra, Jl. Raya Sapan Blok E2/11';
+    : 'BSB City, Ruko Jade Square, Blk. A No.12B, Kota Semarang, 50212';
 
   return (
     <>
@@ -85,7 +85,7 @@ const Header = () => {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3">
-              <img src={Logo}  className="w-44 h-auto" />
+              <img src={Logo}  className="w-24 h-auto" />
             </Link>
 
             {/* Desktop Navigation */}

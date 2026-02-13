@@ -1,13 +1,13 @@
 import { Helmet } from 'react-helmet-async';
 
 const SEO = ({ 
-  title = "Belarise", 
-  description = "Solusi industri terpercaya untuk kebutuhan perusahaan Anda dengan kualitas dan pelayanan terbaik.",
-  keywords = "industri, manufaktur, peralatan industri, solusi industri",
+  title = "Penyedia Jasa WiFi", 
+  description = "Layanan internet dan WiFi dengan koneksi stabil untuk rumah, kost, ruko, dan bisnis di kawasan BSB City, Ruko Jade Square Blk. A No.12B, Kota Semarang 50212.",
+  keywords = "penyedia jasa wifi, internet rumahan, wifi bisnis, wifi bsb city, internet semarang, paket internet",
   image = "/og-image.jpg",
   url = window.location.href
 }) => {
-  const siteTitle = "Belarise";
+  const siteTitle = "Penyedia Jasa WiFi";
   const fullTitle = title === siteTitle ? title : `${title} - ${siteTitle}`;
 
   return (
@@ -34,7 +34,7 @@ const SEO = ({
       <link rel="canonical" href={url} />
       <meta name="robots" content="index, follow" />
       <meta name="language" content="Indonesian" />
-      <meta name="author" content="Belarise" />
+      <meta name="author" content="Penyedia Jasa WiFi" />
     </Helmet>
   );
 };

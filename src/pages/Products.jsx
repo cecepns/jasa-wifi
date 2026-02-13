@@ -110,9 +110,9 @@ const Products = () => {
   return (
     <>
       <SEO 
-        title="Koleksi Belarise"
-        description="Temukan koleksi coquette outfit Belarise Clothing: dress, blouse, skirt, dan set outfit ready to wear yang manis dan nyaman untuk aktivitas sehari-hari maupun acara spesial."
-        keywords="belarise collection, koleksi pakaian wanita, coquette outfit, dress, blouse, skirt, set outfit, fashion lokal"
+        title="Paket & Produk WiFi"
+        description="Pilihan paket internet dan produk pendukung jaringan WiFi untuk rumah, kost, ruko, dan bisnis di kawasan BSB City dan Kota Semarang."
+        keywords="paket wifi, paket internet bsb city, wifi semarang, perangkat jaringan, router, access point"
       />
 
       {/* Hero Section */}
@@ -123,14 +123,14 @@ const Products = () => {
               className="text-2xl lg:text-6xl font-bold mb-6"
               data-aos="fade-up"
             >
-              Koleksi <span className="text-secondary-400">Belarise</span>
+              Paket & Produk <span className="text-secondary-400">WiFi</span>
             </h1>
             <p 
               className="text-xl lg:text-2xl text-gray-200 max-w-4xl mx-auto"
               data-aos="fade-up" 
               data-aos-delay="200"
             >
-              Jelajahi berbagai koleksi pakaian Belarise: dari dress, blouse, hingga set outfit bertema coquette yang siap melengkapi gaya feminim dan manis kamu, baik untuk ecer maupun grosir.
+              Jelajahi berbagai paket internet dan perangkat pendukung jaringan WiFi yang siap mendukung kebutuhan online rumah, kost, ruko, maupun bisnis Anda.
             </p>
           </div>
         </div>

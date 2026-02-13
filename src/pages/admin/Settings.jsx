@@ -125,7 +125,7 @@ const Settings = () => {
                 value={settings.company_name || ''}
                 onChange={handleInputChange}
                 className="input-field"
-                placeholder="Belarise"
+                placeholder="Penyedia Jasa WiFi"
               />
             </div>
 
@@ -142,7 +142,7 @@ const Settings = () => {
                   value={settings.company_email || ''}
                   onChange={handleInputChange}
                   className="input-field pl-10"
-                  placeholder="selvi@denko.co.id"
+                  placeholder="info@penyediajasawifi.id"
                 />
               </div>
             </div>
@@ -160,7 +160,7 @@ const Settings = () => {
                   value={settings.company_phone || ''}
                   onChange={handleInputChange}
                   className="input-field pl-10"
-                  placeholder="0881022598949"
+                  placeholder="081234567890"
                 />
               </div>
             </div>
@@ -178,7 +178,7 @@ const Settings = () => {
                   value={settings.company_address || ''}
                   onChange={handleInputChange}
                   className="input-field pl-10 resize-none"
-                  placeholder="Kawasan Industri de Prima Terra, Jl. Raya Sapan Blok E2/11, Tegalluar Kec. Bojongsoang Kab. Bandung"
+                  placeholder="BSB City, Ruko Jade Square, Blk. A No.12B, Kota Semarang, 50212"
                 />
               </div>
               <p className="text-sm text-gray-500 mt-2">
@@ -244,9 +244,9 @@ const Settings = () => {
             onChange={handleInputChange}
             className="input-field resize-none"
             placeholder={
-              "Belarise Clothing lahir dari kecintaan pada gaya feminin dan detail manis. Kami menghadirkan koleksi ready to wear bertema coquette outfit yang dirancang untuk membuat pemakainya merasa percaya diri di setiap momen.\n\n" +
-              "Setiap koleksi Belarise diproduksi dengan material pilihan yang lembut dan nyaman dipakai seharian, dengan cutting yang flattering untuk berbagai bentuk tubuh.\n\n" +
-              "Belarise menerima pembelian ecer maupun grosir untuk reseller dan butik, dengan komitmen menjaga kualitas, konsistensi warna, dan kerapian jahitan di setiap piece."
+              "Penyedia Jasa WiFi BSB City hadir untuk menjawab kebutuhan koneksi internet yang stabil, cepat, dan terjangkau di kawasan hunian dan komersial BSB City, Kota Semarang.\n\n" +
+              "Berawal dari layanan jaringan di lingkungan sekitar, kami terus mengembangkan infrastruktur dan tim teknis agar setiap pelanggan mendapatkan pengalaman online yang nyaman dan andal.\n\n" +
+              "Dengan lokasi operasional di BSB City, Ruko Jade Square, Blk. A No.12B, kami berkomitmen memberikan layanan yang dekat, responsif, dan mudah dijangkau."
             }
           />
           <p className="text-sm text-gray-500 mt-2">
@@ -274,7 +274,7 @@ const Settings = () => {
                 value={settings.home_about_title || ''}
                 onChange={handleInputChange}
                 className="input-field"
-                placeholder="Belarise Collection"
+                placeholder="Penyedia Jasa WiFi"
               />
             </div>
 
@@ -288,7 +288,7 @@ const Settings = () => {
                 value={settings.home_about_description || ''}
                 onChange={handleInputChange}
                 className="input-field resize-none"
-                placeholder="Belarise Clothing menghadirkan koleksi pakaian ready to wear bertema Coquette Outfit, dengan material berkualitas dan nyaman digunakan. Menerima pembelian ecer dan grosir."
+                placeholder="Layanan pemasangan dan pengelolaan jaringan internet serta WiFi untuk rumah, kost, ruko, dan bisnis di kawasan BSB City dan Kota Semarang. Mengutamakan koneksi stabil, support teknis responsif, dan paket yang fleksibel."
               />
               <p className="text-sm text-gray-500 mt-2">
                 This text will replace the default description on the Home page About section.
@@ -349,8 +349,8 @@ const Settings = () => {
               onChange={handleInputChange}
               className="input-field resize-none"
               placeholder={
-                "Menjadi brand fashion lokal yang menghadirkan koleksi coquette outfit yang manis, elegan, dan mudah dipadupadankan untuk perempuan Indonesia.\n\n" +
-                "Belarise ingin menjadi pilihan utama untuk tampilan feminin yang nyaman dan percaya diri di setiap kesempatan."
+                "Menjadi penyedia layanan internet terpercaya di BSB City dan Kota Semarang dengan jaringan yang stabil, cepat, dan mudah diakses.\n\n" +
+                "Hadir sebagai mitra digital yang membantu aktivitas kerja, belajar, hiburan, dan operasional bisnis berjalan tanpa gangguan."
               }
             />
           </div>
@@ -366,10 +366,10 @@ const Settings = () => {
               onChange={handleInputChange}
               className="input-field resize-none"
               placeholder={
-                "- Menghadirkan pakaian ready to wear berbahan lembut dan nyaman dipakai seharian.\n" +
-                "- Menyediakan cutting yang flattering dan ramah berbagai bentuk tubuh.\n" +
-                "- Mendukung reseller dan butik melalui layanan grosir yang rapi dan konsisten.\n" +
-                "- Menjaga kualitas detail, warna, dan jahitan di setiap koleksi Belarise."
+                "- Menyediakan koneksi internet yang stabil dan berkualitas dengan berbagai pilihan paket sesuai kebutuhan pelanggan.\n" +
+                "- Memberikan dukungan teknis yang responsif dan mudah dihubungi ketika terjadi kendala.\n" +
+                "- Melakukan survei dan instalasi secara profesional dengan memperhatikan kerapian dan keamanan jaringan.\n" +
+                "- Terus meningkatkan infrastruktur jaringan dan teknologi untuk menjaga performa koneksi di area layanan."
               }
             />
           </div>

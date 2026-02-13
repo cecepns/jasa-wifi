@@ -82,10 +82,10 @@ const Contact = () => {
   const addressLines = settings.company_address 
     ? settings.company_address.split('\n').filter(line => line.trim())
     : [
-        'Kawasan Industri de Prima Terra',
-        'Jl. Raya Sapan Blok E2/11',
-        'Tegalluar Kec. Bojongsoang',
-        'Kab. Bandung, Jawa Barat'
+        'BSB City, Ruko Jade Square',
+        'Blok A No.12B',
+        'Kota Semarang, Jawa Tengah',
+        '50212'
       ];
 
   // Parse working hours into lines
@@ -99,7 +99,7 @@ const Contact = () => {
 
   // Format phone for tel link (remove non-digits and ensure it starts with country code)
   const formatPhoneForLink = (phone) => {
-    if (!phone) return '6281022598949';
+    if (!phone) return '6281234567890';
     const cleaned = phone.replace(/\D/g, '');
     return cleaned.startsWith('62') ? cleaned : `62${cleaned}`;
   };
@@ -113,14 +113,14 @@ const Contact = () => {
     {
       icon: Phone,
       title: 'Telepon',
-      details: [settings.company_phone || '0881022598949'],
+      details: [settings.company_phone || '081234567890'],
       link: `tel:+${formatPhoneForLink(settings.company_phone)}`
     },
     {
       icon: Mail,
       title: 'Email',
-      details: [settings.company_email || 'selvi@denko.co.id'],
-      link: `mailto:${settings.company_email || 'selvi@denko.co.id'}`
+      details: [settings.company_email || 'info@penyediajasawifi.id'],
+      link: `mailto:${settings.company_email || 'info@penyediajasawifi.id'}`
     },
     {
       icon: Clock,
@@ -133,8 +133,8 @@ const Contact = () => {
     <>
       <SEO 
         title="Contact Us"
-        description="Hubungi Belarise untuk konsultasi, informasi produk, atau kerjasama bisnis. Tim kami siap membantu kebutuhan industri Anda."
-        keywords="kontak denko wahana sakti, alamat perusahaan, telepon, email, konsultasi"
+        description="Hubungi kami untuk konsultasi paket internet, informasi pemasangan WiFi, atau kerjasama layanan jaringan di kawasan BSB City dan Kota Semarang."
+        keywords="kontak penyedia jasa wifi, alamat wifi bsb city, telepon wifi semarang, email layanan internet, konsultasi paket wifi"
       />
 
       {/* Hero Section */}
@@ -152,8 +152,8 @@ const Contact = () => {
               data-aos="fade-up" 
               data-aos-delay="200"
             >
-              Tim profesional kami siap membantu Anda menemukan solusi industri 
-              yang tepat untuk kebutuhan bisnis Anda.
+              Tim profesional kami siap membantu Anda menemukan solusi internet 
+              yang tepat untuk kebutuhan rumah maupun bisnis Anda.
             </p>
           </div>
         </div>

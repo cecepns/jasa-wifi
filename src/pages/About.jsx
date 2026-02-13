@@ -33,7 +33,7 @@ const About = () => {
       const response = await settingsAPI.get();
       const settingsData = response.data.data || {};
       setSettings({
-        company_name: settingsData.company_name || 'Belarise Clothing',
+        company_name: settingsData.company_name || 'Penyedia Jasa WiFi',
         company_about: settingsData.company_about || '',
         company_history: settingsData.company_history || '',
         company_vision: settingsData.company_vision || '',
@@ -99,26 +99,26 @@ const About = () => {
   ];
 
   const defaultCompanyHistory =
-    "Belarise Clothing lahir dari kecintaan pada gaya feminin dan detail manis. Kami menghadirkan koleksi ready to wear bertema coquette outfit yang dirancang untuk membuat pemakainya merasa percaya diri di setiap momen.\n\n" +
-    "Setiap koleksi Belarise diproduksi dengan material pilihan yang lembut dan nyaman dipakai seharian, dengan cutting yang flattering untuk berbagai bentuk tubuh.\n\n" +
-    "Belarise menerima pembelian ecer maupun grosir untuk reseller dan butik, dengan komitmen menjaga kualitas, konsistensi warna, dan kerapian jahitan di setiap piece.";
+    "Penyedia Jasa WiFi BSB City hadir untuk menjawab kebutuhan koneksi internet yang stabil, cepat, dan terjangkau bagi hunian, kost, ruko, dan area komersial di kawasan BSB City, Kota Semarang.\n\n" +
+    "Berawal dari layanan jaringan di lingkungan sekitar, kami terus berkembang dengan menambah cakupan area, meningkatkan kualitas infrastruktur, dan memperkuat tim teknis agar setiap pelanggan mendapat pengalaman online yang nyaman.\n\n" +
+    "Dengan lokasi operasional di BSB City, Ruko Jade Square, Blk. A No.12B, Kota Semarang, kami berkomitmen memberikan layanan yang dekat, responsif, dan mudah dijangkau.";
 
   const defaultVision =
-    "Menjadi brand fashion lokal yang menghadirkan koleksi coquette outfit yang manis, elegan, dan mudah dipadupadankan untuk perempuan Indonesia.\n\n" +
-    "Belarise ingin menjadi pilihan utama untuk tampilan feminin yang nyaman dan percaya diri di setiap kesempatan.";
+    "Menjadi penyedia layanan internet terpercaya di BSB City dan Kota Semarang dengan jaringan yang stabil, cepat, dan mudah diakses oleh rumah tangga maupun pelaku usaha.\n\n" +
+    "Hadir sebagai mitra digital yang membantu aktivitas kerja, belajar, hiburan, dan operasional bisnis berjalan tanpa gangguan.";
 
   const defaultMission =
-    "- Menghadirkan pakaian ready to wear berbahan lembut dan nyaman dipakai seharian.\n" +
-    "- Menyediakan cutting yang flattering dan ramah berbagai bentuk tubuh.\n" +
-    "- Mendukung reseller dan butik melalui layanan grosir yang rapi dan konsisten.\n" +
-    "- Menjaga kualitas detail, warna, dan jahitan di setiap koleksi Belarise.";
+    "- Menyediakan koneksi internet yang stabil dan berkualitas dengan berbagai pilihan paket sesuai kebutuhan pelanggan.\n" +
+    "- Memberikan dukungan teknis yang responsif, ramah, dan mudah dihubungi ketika terjadi kendala.\n" +
+    "- Melakukan survei dan instalasi secara profesional dengan memperhatikan kerapian dan keamanan jaringan.\n" +
+    "- Terus meningkatkan infrastruktur jaringan dan teknologi untuk menjaga performa koneksi di area layanan.";
 
   return (
     <>
       <SEO
-        title="Tentang Belarise Clothing"
-        description="Belarise Clothing adalah brand fashion lokal yang menghadirkan koleksi coquette outfit ready to wear yang manis, feminin, dan nyaman untuk dikenakan sehari-hari."
-        keywords="belarise clothing, about belarise, brand coquette outfit, pakaian wanita, fashion lokal"
+        title="Tentang Penyedia Jasa WiFi BSB City"
+        description="Profil penyedia layanan internet dan WiFi yang berlokasi di BSB City, Ruko Jade Square, Blk. A No.12B, Kota Semarang 50212. Menyediakan koneksi stabil untuk rumah dan bisnis."
+        keywords="penyedia jasa wifi bsb city, wifi semarang, internet rumahan, internet bisnis, layanan wifi kantor"
       />
 
       {/* Hero Section */}
@@ -129,14 +129,14 @@ const About = () => {
               className="text-2xl lg:text-6xl font-bold mb-6"
               data-aos="fade-up"
             >
-              Tentang <span className="text-secondary-400">Belarise</span>
+              Tentang <span className="text-secondary-400">Penyedia Jasa WiFi</span>
             </h1>
             <p
               className="text-xl lg:text-2xl text-gray-200 leading-relaxed"
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              Belarise Clothing menghadirkan koleksi pakaian ready to wear bertema coquette outfit yang manis, feminin, dan mudah dipadupadankan untuk berbagai momen spesialmu.
+              Kami menyediakan layanan internet dan WiFi dengan koneksi stabil untuk rumah, kost, ruko, dan bisnis di kawasan BSB City dan Kota Semarang.
             </p>
           </div>
         </div>
@@ -148,7 +148,7 @@ const About = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div data-aos="fade-right">
               <h2 className="text-2xl lg:text-4xl font-bold text-gray-900 mb-6">
-                {settings.company_name || 'Belarise Clothing'}
+                {settings.company_name || 'Penyedia Jasa WiFi'}
               </h2>
               {loading ? (
                 <Loading />
@@ -160,7 +160,7 @@ const About = () => {
               <div className="grid grid-cols-2 gap-6">
                 <div className="text-center p-4">
                   <div className="text-3xl font-bold text-primary-600 mb-2">
-                    500+
+                    1000+
                   </div>
                   <div className="text-gray-600">Klien Terpuaskan</div>
                 </div>
@@ -176,7 +176,7 @@ const About = () => {
               <div className="w-full h-96 md:h-[500px]">
                 <img
                   src={AboutImage}
-                  alt="Belarise Office"
+                  alt="Kantor Penyedia Jasa WiFi"
                   className="w-full h-full object-cover rounded-lg shadow-xl"
                 />
               </div>
@@ -274,7 +274,7 @@ const About = () => {
           <div className="max-w-4xl mx-auto">
             <div className="card p-8" data-aos="fade-up">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">
-                Cerita Belarise Clothing
+                Cerita Penyedia Jasa WiFi
               </h3>
               <div className="prose prose-lg max-w-none text-gray-600 leading-relaxed space-y-4">
                 {formatCompanyAbout(settings.company_history || defaultCompanyHistory)}
